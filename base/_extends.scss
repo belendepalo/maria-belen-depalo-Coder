@@ -1,0 +1,8 @@
+%font{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+    @extend %font;
+}

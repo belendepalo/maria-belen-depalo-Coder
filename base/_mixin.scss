@@ -1,0 +1,15 @@
+@mixin measure ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+.footer__twitter{
+    @include measure(70px, auto);
+}
+.footer__instagram{
+    @include measure(70px, auto);
+}
+
+.gallery__img{
+    @include measure(100%, 100%);
+}
