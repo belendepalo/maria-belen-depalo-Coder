@@ -33,8 +33,33 @@
           </nav>
     </header>
     <main>
-        <img src="../imagenes/contacto1.jpg" alt="Sarah Rafferty">
-        <!-- todavÍa no vimos formularios, asi que no los agrego todavía -->
+      <h2 class="subtitle">Contacto</h2>
+      <div class="contacto__container">
+        <img src="../imagenes/contacto1.jpg" alt="Sarah Rafferty" class="contacto__img">
+        <div class="contacto__form">
+          <div class="row form__element1">
+            <div class="col">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+              <input type="text" class="form-control" placeholder="Inserte su nombre" aria-label="First name">
+            </div>
+            <div class="col">
+              <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+              <input type="text" class="form-control" placeholder="Inserte su apellido" aria-label="Last name">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Inserte su mail">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn__adicionales" type="submit">Enviar</button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer__div">
