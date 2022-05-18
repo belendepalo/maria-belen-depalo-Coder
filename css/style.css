@@ -49,29 +49,37 @@ main {
 /* FOOTER */
 footer {
   background-color: #363434;
-  height: 120px;
   width: 100%;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  justify-items: center;
 }
 
 .footer__list {
-  display: flex;
+  /*   display: flex; */
   list-style: none;
   padding: 20px;
+}
+
+.footer__logos {
+  display: flex;
+}
+
+.list__container {
+  padding: 5px;
 }
 
 .footer__twitter {
   width: 70px;
   height: auto;
-  margin: 10px;
+  margin: 15px;
 }
 
 .footer__instagram {
   width: 70px;
   height: auto;
-  margin: 10px;
+  margin: 15px;
 }
 
 /* ---------------------------GALERIA */
@@ -104,7 +112,7 @@ footer {
 }
 
 .main__subtitle {
-  font-size: 22px;
+  font-size: 40px center;
 }
 
 /* ----------------------RESPONSIVE LA GALERIA Y EL INDEX */
