@@ -13,11 +13,14 @@
 /*------------------------------- HEADER */
 .navbar-color{
     background-color: #363434;
+    position: fixed;
+    width: 100%;
 }
+
 
 /* ---------------------------------MAIN */
 main{
-    padding: 20px 20px 20px 20px;
+    padding: 80px 20px 20px 20px;
     background-color: $bg-color-general;
     min-height: calc(100vh - 80px);
 }
@@ -181,12 +184,23 @@ footer{
     }
     /* ---------------------------------informacion */
     .information__img{
-        width: 70%;
-        height: auto;
+        display: none;
+    }
+    .main__container{
+        padding: 25px;
     }
 
     /* ---------------------------------contacto */
-    
+    .contacto__img{
+        display: none;
+    }
+    .contacto__form{
+        padding: 20px;
+    }
+    .contacto__container{
+        padding: 0px;
+    }
+
     /* ---------------------------------footer */
     footer{
         background-color: #363434;
